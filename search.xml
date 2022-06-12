@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo/Markdown快速入门</title>
+    <url>/2022/06/11/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="Hexo基本命令"><a href="#Hexo基本命令" class="headerlink" title="Hexo基本命令"></a>Hexo基本命令</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo generate  ## 生成静态文件</span><br><span class="line">hexo server  ## 开启hexo服务</span><br><span class="line">hexo new page tags  ## 生成标签页会在source目录下生成tags文件夹</span><br><span class="line">hexo new page categories  ## 生成分类页会在source目录下生成categories文件夹</span><br><span class="line">hexo new quickstart  ## 会在source目录下的_posts目录下生成quickstart的md文件</span><br><span class="line">avatar  ## 在配置文件中搜索关键字可更改头像</span><br><span class="line">reward  ## 在配置文件中搜索关键字可打开赞赏</span><br><span class="line">follow_me  ## 在配置文件中搜索关键字可放置微信公众号图片</span><br><span class="line">canvas  ## 在配置文件中搜索关键字可设置画布特效</span><br><span class="line">\next\source\css\_common\outline\sidebar\sidebar-author.styl  ##可设置圆形旋转头像</span><br><span class="line">\next\layout\_layout.njk  ## 可添加github右上角（https://tholman.com/github-corners/）</span><br><span class="line">\next\source\css\_common\components\post\post-body.styl  ## 可更改超链接样式</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="Markdown基本命令"><a href="#Markdown基本命令" class="headerlink" title="Markdown基本命令"></a>Markdown基本命令</h1><span id="more"></span>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">效果如下  // 一级标题</span></span><br><span class="line"></span><br><span class="line">```shell</span><br><span class="line">代码块</span><br><span class="line">```  // 代码块</span><br><span class="line"></span><br><span class="line">- 列表一</span><br><span class="line">- 列表二</span><br><span class="line">a 子列表</span><br><span class="line">b 子列表</span><br><span class="line">- 列表三  // 列表</span><br><span class="line"></span><br><span class="line">[超链接](https://github.com/ShockedLi)  // 超链接</span><br><span class="line"></span><br><span class="line">![01sec](https://s1.ax1x.com/2022/06/11/XgE8Ej.jpg)  // 图片</span><br><span class="line"></span><br><span class="line">*字体是斜体*  // 斜体</span><br><span class="line"></span><br><span class="line">**字体被加粗**  // 加粗</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">我的内容是被引用  // 引用</span></span><br><span class="line"></span><br><span class="line">---  // 分割线</span><br><span class="line"></span><br><span class="line">&lt;!-- more --&gt;  //设置在哪个部分截断文章，并显示阅读全文按钮</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="效果如下"><a href="#效果如下" class="headerlink" title="效果如下"></a>效果如下</h1><pre><code class="shell">代码块
+</code></pre>
+<ul>
+<li>列表一</li>
+<li>列表二<br>a 子列表<br>b 子列表</li>
+<li>列表三</li>
+</ul>
+<p><a href="https://github.com/ShockedLi">超链接</a>  </p>
+<p><img src="https://s1.ax1x.com/2022/06/11/XgE8Ej.jpg" alt="01sec"></p>
+<p><em>字体是斜体</em><br><strong>字体被加粗</strong></p>
+<blockquote>
+<p>我的内容是被引用</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>入门</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+</search>
